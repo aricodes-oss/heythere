@@ -1,21 +1,21 @@
 - id: prev_page
-  translation: "הקודם"
+  translation: "קודם"
 
 - id: next_page
   translation: "הבא"
 
 - id: read_time
   translation:
-    one: "דקה אחת"
-    other: "{{ .Count }} דקות"
+    one : "דקה אחת"
+    other: "דקות {{ .Count }}"
 
 - id: words
   translation:
-    one: "מילה אחת"
-    other: "{{ .Count }} מילים"
+    one : "word"
+    other: "מילים {{ .Count }} "
 
 - id: toc
-  translation: "תוכן עניינים"
+  translation: "תוכן העניינים"
 
 - id: translations
   translation: "תרגומים"
@@ -30,4 +30,4 @@
   translation: "העתק"
 
 - id: code_copied
-  translation: "הועתק!"
+  translation: "!הועתק"
