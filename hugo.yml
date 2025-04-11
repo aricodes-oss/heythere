@@ -1,3 +1,10 @@
-baseURL: https://example.org/
+theme: ["PaperMod"]
+baseURL: https://heythere.band/
 languageCode: en-us
-title: My New Hugo Site
+title: Hey There
+params:
+  defaultTheme: dark
+  disableThemeToggle: true # Keep that shit emo
+  profileMode:
+    enabled: true
+    title: Hey There
