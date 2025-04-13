@@ -24,7 +24,10 @@ params:
   profileMode:
     enabled: true
     title: Hey There
-    subtitle: PDX-based songs by people who were sad but are happy now
+    subtitle: |
+      songs by people who were sad but are happy now
+
+      (Portland, Oregon)
 
     buttons:
       - name: Instagram
