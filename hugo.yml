@@ -35,6 +35,8 @@ params:
       url: https://tidal.com/browse/artist/51986719
     - name: Bandcamp
       url: https://heythereband.bandcamp.com/
+    - name: Youtube
+      url: https://music.youtube.com/channel/UCaOlGFjCY8tUyfGJmns82rg
     - name: Instagram
       url: https://instagram.com/heythereband
     - name: FreakScene
