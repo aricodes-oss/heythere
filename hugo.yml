@@ -8,6 +8,13 @@ markup:
     renderer:
       unsafe: true
 
+menu:
+  main:
+    - identifier: events
+      name: Events
+      url: /events
+      weight: 10
+
 params:
   defaultTheme: dark
   disableThemeToggle: true # Keep that shit emo
@@ -24,12 +31,16 @@ params:
       url: https://open.spotify.com/artist/384o1CUgmneQl1LNsBBoMv?si=fPrLRUG4TTuMbd4QXfUNpg
     - name: AppleMusic
       url: https://music.apple.com/us/artist/hey-there/1728509434
+    - name: Tidal
+      url: https://tidal.com/browse/artist/51986719
+    - name: Bandcamp
+      url: https://heythereband.bandcamp.com/
     - name: Instagram
       url: https://instagram.com/heythereband
     - name: FreakScene
       url: https://freakscene.us/members/hey-there.3196/
     - name: Email
-      url: heytherebandpdx@gmail.com
+      url: mailto:heytherebandpdx@gmail.com
   profileMode:
     enabled: true
     title: |
@@ -37,10 +48,10 @@ params:
     subtitle: |
       songs by people who were sad but are happy now
 
-      (Portland, Oregon)
+      <span class="small">Portland, Oregon</span>
 
     buttons:
       - name: Instagram
         url: https://instagram.com/heythereband
-      - name: Events
+      - name: Show Calendar
         url: /events
