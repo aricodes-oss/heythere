@@ -19,6 +19,10 @@ params:
       url: https://open.spotify.com/artist/384o1CUgmneQl1LNsBBoMv?si=fPrLRUG4TTuMbd4QXfUNpg
     - name: AppleMusic
       url: https://music.apple.com/us/artist/hey-there/1728509434
+    - name: Instagram
+      url: https://instagram.com/heythereband
+    - name: FreakScene
+      url: https://freakscene.us/members/hey-there.3196/
     - name: Email
       url: heytherebandpdx@gmail.com
   profileMode:
@@ -32,5 +36,5 @@ params:
     buttons:
       - name: Instagram
         url: https://instagram.com/heythereband
-      - name: FreakScene
-        url: https://freakscene.us/members/hey-there.3196/
+      - name: Events
+        url: /events
