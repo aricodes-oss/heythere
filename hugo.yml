@@ -17,6 +17,7 @@ menu:
 
 params:
   defaultTheme: dark
+  description: Portland-based emo punk band
   disableThemeToggle: true # Keep that shit emo
   keywords:
     - Music
