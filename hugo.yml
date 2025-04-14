@@ -53,7 +53,7 @@ params:
       <span class="small">Portland, Oregon</span>
 
     buttons:
-      - name: DM for booking
+      - name: DM for Booking
         url: https://instagram.com/heythereband
       - name: Upcoming Shows
         url: /events
