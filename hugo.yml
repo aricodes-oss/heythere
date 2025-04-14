@@ -14,18 +14,16 @@ menu:
       name: Events
       url: /events
       weight: 10
+    - identifier: github
+      url: https://github.com/aricodes-oss/heythere
+      name: ' '
+      pre: |
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: relative; top: 10px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
 
 params:
   defaultTheme: dark
   description: Portland-based emo punk band
   disableThemeToggle: true # Keep that shit emo
-  keywords:
-    - Music
-    - Band
-    - Portland
-    - PDX
-    - Emo
-    - Punk
 
   socialIcons:
     - name: Spotify
@@ -41,9 +39,10 @@ params:
     - name: Instagram
       url: https://instagram.com/heythereband
     - name: FreakScene
-      url: https://freakscene.us/members/hey-there.3196/
+      url: https://freakscene.us/groups/hey-there.42/
     - name: Email
       url: mailto:heytherebandpdx@gmail.com
+
   profileMode:
     enabled: true
     title: |
@@ -58,3 +57,32 @@ params:
         url: https://instagram.com/heythereband
       - name: Show Calendar
         url: /events
+
+  # Keyword vomit for SEO
+  keywords:
+    - Music
+    - Band
+    - Portland
+    - PDX
+    - Emo
+    - Punk
+    - Portland emo bands
+    - Portland punk scene
+    - Hey There tickets Portland
+    - Portland live music emo
+    - Portland indie bands
+    - Hey There merch
+    - Portland emo shows
+    - Portland punk bands
+    - Book Hey There for shows
+    - Local Portland emo/punk groups
+    - Hey There on Instagram
+    - Portland music scene
+    - Follow Portland emo bands
+    - Hey There tour dates
+    - Portland band opportunities
+    - Portland music venues emo
+    - Hey There song releases
+    - Portland underground music
+    - Portland emo/punk festivals
+    - Buy Hey There merch online
