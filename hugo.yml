@@ -25,6 +25,9 @@ params:
   description: Portland-based emo punk band
   disableThemeToggle: true # Keep that shit emo
 
+  label:
+    text: 'HT'
+
   assets:
     favicon: /favicon.png
     favicon16x16: /favcon16px.png
