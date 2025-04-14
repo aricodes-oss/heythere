@@ -25,6 +25,11 @@ params:
   description: Portland-based emo punk band
   disableThemeToggle: true # Keep that shit emo
 
+  assets:
+    favicon: /favicon.png
+    favicon16x16: /favcon16px.png
+    favicon32x32: /favicon.png
+
   socialIcons:
     - name: Spotify
       url: https://open.spotify.com/artist/384o1CUgmneQl1LNsBBoMv?si=fPrLRUG4TTuMbd4QXfUNpg
