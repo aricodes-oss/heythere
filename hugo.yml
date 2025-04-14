@@ -53,9 +53,9 @@ params:
       <span class="small">Portland, Oregon</span>
 
     buttons:
-      - name: Instagram
+      - name: DM for booking
         url: https://instagram.com/heythereband
-      - name: Show Calendar
+      - name: Upcoming Shows
         url: /events
 
   # Keyword vomit for SEO
