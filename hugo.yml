@@ -55,7 +55,6 @@ params:
     enabled: true
     title: |
       <span class="no-break"><span style="--i: 0;">H</span><span style="--i: 1.2;">e</span><span style="--i: 1;">y</span></span> <span class="no-break"><span style="--i: 1;">T</span><span style="--i: 1;">h</span><span style="--i: 0.5;" class="flip-h">e</span><span style="--i: 0;">r</span><span style="--i: -1;">e</span></span>
-      <img src="/snug-poster.jpg" alt="Poster for our upcoming show at The Snug" style="border-radius: 10%;" />
     subtitle: |
       songs by people who were sad but are happy now
 
