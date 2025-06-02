@@ -1,6 +1,6 @@
-/* Customize our logo */
+// Customize our logo
 .profile_inner {
-  /* Use a smaller, darker font for our location */
+  // Use a smaller, darker font for our location
   .small {
     font-size: 15px;
     color: #A6A6A6;
@@ -14,12 +14,12 @@
     letter-spacing: -0.05ch;
     line-height: 1.5;
 
-    /* Prevent individual words from wrapping */
+    // Prevent individual words from wrapping
     .no-break {
       white-space: nowrap;
     }
 
-    /* Make the logo letters follow a curve */
+    // Make the logo letters follow a curve
     span {
       @media (min-width: 521px) {
         position: relative;
@@ -38,18 +38,27 @@
   }
 }
 
-/* Flip the E in hey thEre */
+// Flip the E in hey thEre
 .flip-h {
   transform: scale(-1, 1);
   display: inline-block;
 }
 
-/* Make the footer a little smaller */
-footer.footer {
-  font-size: 10px;
+footer {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  // Make the footer font a little smaller
+  .footer {
+    font-size: 10px;
+  }
 }
 
-/* Prevent menu items from overflowing */
+// Prevent menu items from overflowing
 ul#menu li {
   overflow-x: hidden;
 }
