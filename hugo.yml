@@ -58,6 +58,8 @@ params:
     subtitle: |
       songs by people who were sad but are happy now
 
+      <div id="next_show"></div>
+
       <span class="small">Portland, Oregon</span>
 
     buttons:

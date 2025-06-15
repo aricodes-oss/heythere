@@ -18,3 +18,37 @@
     {{ end }}
   {{ end }}
 {{ end }}
+<script src="https://apis.google.com/js/api.js"></script>
+<script type="text/javascript">
+  // Hey There public events calendar, embedded on /events
+  const calendarId = '44733ee66c17ece914976ec60e6ccaaa6a06c498e3d558e6943705c8cb387a7c@group.calendar.google.com';
+  const today = new Date();
+  const daysUntil = date => Math.round((date - today) / (1000 * 60 * 60 * 24));
+
+  gapi.load('client', async () => {
+    // This is publicly exposed in the HTML anyways, so just use a highly restricted key
+    await gapi.client.init({apiKey: 'AIzaSyBioGuAuG_uqC6EUti-OXE6XfUckaVe_z0'});
+    const response = await gapi.client.request({path: `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events`});
+    const target = document.querySelector('#next_show');
+
+    const events = response.result.items.map(item => ({
+      ...item,
+      start: new Date(item.start.dateTime),
+    })).filter(item => item.start >= today).sort((a, b) => b.start - a.start);
+
+    // If we have no events, clear the banner
+    if (!events.length || !target) {
+      return;
+    }
+
+    const [event] = events;
+    const location = event.location.split(',')[0];
+    const until = daysUntil(event.start);
+    let prelude = `Playing in ${until} ${until > 1 ? 'days' : 'day'}`;
+    if (until === 0) {
+      prelude = 'PLAYING TONIGHT';
+    }
+
+    target.innerHTML = `<a class="button" href="${event.htmlLink}"><span class="button-inner">${prelude} at ${location}</span></a>`;
+  });
+</script>

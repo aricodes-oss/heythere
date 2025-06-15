@@ -1,3 +1,12 @@
+// Next show notice
+#next_show {
+  margin: 16px 0;
+  // font-size: 1.5em;
+  &:empty {
+    display: none;
+  }
+}
+
 // Customize our logo
 .profile_inner {
   // Use a smaller, darker font for our location
