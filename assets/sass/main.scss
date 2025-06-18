@@ -1,9 +1,13 @@
 // Next show notice
 #next_show {
-  margin: 16px 0;
+  margin: 8px 0 0 0;
   // font-size: 1.5em;
   &:empty {
     display: none;
+  }
+
+  a {
+    text-decoration: underline;
   }
 }
 
