@@ -40,6 +40,19 @@
       }
     }
   }
+
+  img {
+    margin-top: 4px;
+    border-radius: 0;
+    max-width: 95%;
+    max-height: 640px;
+  }
+
+  .album-caption {
+    font-size: 24px;
+    margin-top: 8px;
+    font-weight: bold;
+  }
 }
 
 .header {
