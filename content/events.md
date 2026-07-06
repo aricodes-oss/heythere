@@ -18,7 +18,6 @@ description: ""
 canonicalURL: "https://heythere.band/events"
 disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
 hideSummary: true
 searchHidden: true
 ShowReadingTime: false

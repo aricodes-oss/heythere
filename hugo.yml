@@ -1,6 +1,6 @@
 theme: ["PaperMod"]
 baseURL: https://heythere.band/
-languageCode: en-us
+locale: en-us
 title: Hey There
 description: PDX-based emo punk
 markup:
@@ -23,6 +23,10 @@ menu:
 params:
   defaultTheme: dark
   description: Portland-based emo punk band
+
+  author:
+    name: Hey There
+    email: heytherebandpdx@gmail.com
   disableThemeToggle: true # Keep that shit emo
 
   label:
