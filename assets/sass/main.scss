@@ -56,8 +56,8 @@
 }
 
 .header {
-  .nav .logo {
-    font-family: "Rock 3D", system-ui;
+  .header-nav .logo {
+    font-family: "Rock 3D", system-ui !important;
     a:hover {
       text-shadow: 2px 2px 2px #696969;
     }
